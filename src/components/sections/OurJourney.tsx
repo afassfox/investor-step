@@ -18,12 +18,10 @@ export default function OurJourney() {
         >
           <div className='flex flex-col gap-6 p-4'>
             <h2 className=' font-bold text-xl md:text-2xl text-white'>
-              {" "}
               رحلة الابتكار والتميز التي تصنع إرثًا لا يُنسى في عالم الاستثمار
               والأعمال
             </h2>
             <p className='text-white text-sm md:text-lg '>
-              {" "}
               نحن ندمج بين الإبداع والاستراتيجية لصياغة قصص علامات تجارية مؤثرة
               تصل إلى الجمهور، وتجذب الانتباه، وتترك أثرًا دائمًا.
             </p>
