@@ -1,10 +1,10 @@
 const logos = [
-  "../../../public/assets/logo1.png",
-  "../../../public/assets/logo2.png",
-  "../../../public/assets/logo1.png",
-  "../../../public/assets/logo2.png",
-  "../../../public/assets/logo1.png",
-  "../../../public/assets/logo2.png",
+  "/assets/logo1.png",
+  "/assets/logo2.png",
+  "/assets/logo1.png",
+  "/assets/logo2.png",
+  "/assets/logo1.png",
+  "/assets/logo2.png",
 ];
 
 const duplicatedLogos = [...logos, ...logos, ...logos];

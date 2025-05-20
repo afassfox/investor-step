@@ -7,25 +7,25 @@ export default function OurTeam() {
   const teamMembers = [
     {
       id: "our-team",
-      image: "../../../public/assets/team1.png",
+      image: "/assets/team1.png",
       title: "مدير التصميم الإبداعي",
       name: "خالد السويلم",
     },
     {
       id: "our-team",
-      image: "../../../public/assets/team2.png",
+      image: "/assets/team2.png",
       title: "المدير التنفيذي للعمليات",
       name: "فهد القحطاني",
     },
     {
       id: "our-team",
-      image: "../../../public/assets/team3.png",
+      image: "/assets/team3.png",
       title: "رئيس مجلس الإدارة",
       name: "محمد أحمد محمد",
     },
     {
       id: "our-team",
-      image: "../../../public/assets/team4.png",
+      image: "/assets/team4.png",
       title: "المدير التقني",
       name: "محمد العتيبي",
     },

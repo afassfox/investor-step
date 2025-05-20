@@ -15,17 +15,17 @@ export default function Hero() {
           <div className='flex flex-col'>
             <div className='flex items-center'>
               <img
-                src='../../../public/assets/client1.jpg'
+                src='/assets/client1.jpg'
                 alt='client1'
                 className='rounded-full w-10 h-10 border-2 border-white relative -left-2 z-10'
               />
               <img
-                src='../../../public/assets/client2.jpg'
+                src='/assets/client2.jpg'
                 alt='client2'
                 className='rounded-full w-10 h-10 border-2 border-white relative left-2 z-9'
               />
               <img
-                src='../../../public/assets/client3.jpg'
+                src='/assets/client3.jpg'
                 alt='client3'
                 className='rounded-full w-10 h-10 border-2 border-white relative left-4 z-8'
               />
@@ -55,7 +55,7 @@ export default function Hero() {
         <div className='z-20 relative'>
           <img
             className='rounded-xl w-full h-[300px] sm:h-[396px] object-cover z-20 animate-img origin-bottom delay-[2s]'
-            src='../../../public/assets/meeting.png'
+            src='/assets/meeting.png'
             alt='Meeting'
           />
         </div>

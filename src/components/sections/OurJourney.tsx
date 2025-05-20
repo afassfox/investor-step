@@ -34,7 +34,7 @@ export default function OurJourney() {
           <div className='w-full h-full fit-content relative overflow-hidden rounded-lg'>
             <img
               id='our-journey-img'
-              src='../../../public/assets/tree.png'
+              src='/assets/tree.png'
               alt='palm tree'
               className='w-full h-70 md:h-130 object-cover duration-500'
               style={{ transform: `scale(${imgScale})` }}

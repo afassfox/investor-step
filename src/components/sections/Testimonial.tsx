@@ -38,7 +38,7 @@ export default function Testimonial() {
           <div className='flex flex-col items-center gap-2'>
             <img
               className='rounded-full w-16 h-16 grayscale'
-              src='../../../public/assets/client1.jpg'
+              src='/assets/client1.jpg'
               alt='client1'
             />
             <h3 className='text-heading-1 font-bold'>سعود العتيبي</h3>
