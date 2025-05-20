@@ -2,8 +2,8 @@ import { Container } from "../shared/Container";
 
 export default function Motivation() {
   return (
-    <section className='py-15'>
-      <Container>
+    <Container>
+      <section className='py-15'>
         <div className=' justify-center relative'>
           <div className='absolute top-0 left-0 w-30 h-30 bg-body z-10 blur-3xl opacity-70'></div>
           <div className='absolute top-0 -right-10 w-30 h-30 bg-body z-10 blur-3xl opacity-70'></div>
@@ -22,7 +22,7 @@ export default function Motivation() {
             </li>
           </ul>
         </div>
-      </Container>
-    </section>
+      </section>
+    </Container>
   );
 }
