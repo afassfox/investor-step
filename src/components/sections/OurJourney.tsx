@@ -8,7 +8,7 @@ export default function OurJourney() {
   return (
     <Container>
       <div
-        className='flex flex-col lg-flex-row gap-6 w-full bg-body mt-310 sm:mt-90 md:mt-80 
+        className='flex flex-col lg-flex-row gap-6 w-full bg-body max-sm:mt-340 mt-310 sm:mt-90 md:mt-80 
       lg:-mt-40 items-center rounded-lg px-2'
       >
         <div
