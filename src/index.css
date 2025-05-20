@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+@import "tailwindcss";
+body {
+  font-family: "IBM Plex Sans Arabic", "IBM Plex Sans Arabic Placeholder",
+    sans-serif;
+}
+:root {
+  --color-bg: 241, 233, 254;
+  --color-bg-purple: 109, 40, 217;
+  --color-heading-1: 37, 8, 84;
+
+  --tw-scale-x: imgScale;
+  --tw-scale-y: imgScale;
+}
+@theme {
+  --animate-slide-down: slideDown 0.5s ease-in-out;
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  --animate-slide-right: slideRight 0.5s ease-in-out;
+  @keyframes slideRight {
+    0% {
+      transform: translateX(-400px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  --animate-move-up {
+    animation: moveUpReappear 1s ease-in-out infinite;
+  }
+  @keyframes moveUpReappear {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(50px);
+      opacity: 1;
+    }
+  }
+
+  --animate-scroll-1: marquee 30s linear infinite;
+  --animate-scroll-2: marquee2 30s linear infinite;
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee2 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  --animate-navbar: slideNavDown 0.7s ease-in-out;
+  @keyframes slideNavDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  --animate-hero: slideHeroUp 0.6s ease-in-out;
+  @keyframes slideHeroUp {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  --animate-img: slideImgUp 1s ease-in-out;
+  @keyframes slideImgUp {
+    0% {
+      transform: scaleY(0.5);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+}
+
+@layer utilities {
+  .bg-body {
+    background-color: rgb(var(--color-bg));
+  }
+
+  .bg-purple {
+    background-color: rgb(var(--color-bg-purple));
+  }
+  .purple-text {
+    color: rgb(var(--color-bg-purple));
+  }
+  .text-heading-1 {
+    color: rgb(var(--color-heading-1));
+  }
+  .animate-move-up {
+    animation: moveUpReappear 1s ease-in-out infinite;
+  }
+  .btn {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    line-height: 1.6;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+::selection {
+  background: rgb(109, 40, 217);
+  color: white;
+}
