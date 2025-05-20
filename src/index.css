@@ -5,6 +5,8 @@
 body {
   font-family: "IBM Plex Sans Arabic", "IBM Plex Sans Arabic Placeholder",
     sans-serif;
+  overflow-x: hidden;
+  width: 100%;
 }
 :root {
   --color-bg: 241, 233, 254;
